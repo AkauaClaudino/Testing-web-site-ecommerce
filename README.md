@@ -7,3 +7,7 @@
 <h6>Site usado para realizar a automação web:http://automationpractice.com/index.php </h6>
 
 
+# Intuito do testes
+<h6> Aprimorar os conhecimetos em automação web </h6>
+
+
