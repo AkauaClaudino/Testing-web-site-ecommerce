@@ -9,8 +9,8 @@
 
 
 ### Objetivo do teste
-<h6>Projeto simples com propósito de treinar os conhecimentos adquiridos em automação web</h6>
-<h6>optei pela escrita em inglês para aprimorar o conhecimento da lingua</h6>
+<h6>Projeto simples com propósito de treinar os conhecimentos adquiridos em automação web, também optei pela escrita em inglês para aprimorar o conhecimento da lingua</h6>
+
 
 
 
