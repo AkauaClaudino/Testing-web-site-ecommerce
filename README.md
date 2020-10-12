@@ -9,7 +9,7 @@
 
 
 ### Objetivo do teste
-<h6>Projeto simples com propósito de treinar os conhecimentos adquiridos</h6>
-<h6> em automação web </h6>
+<h6>Projeto simples com propósito de treinar os conhecimentos adquiridos em automação web</h6>
+
 
 
