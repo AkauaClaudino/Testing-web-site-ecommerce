@@ -11,11 +11,9 @@
 <h6>Projeto simples com propósito de treinar os conhecimentos adquiridos em automação web. Optei pela escrita em inglês para aprimorar a habilidade com a lingua.</h6>
 
 #### Execução dos testes, gerando report em html
-<h5>Pelo Chrome</h5>
-cucumber -f pretty -f html -o report.html BROWSER=chrome
+<h5>Pelo Chrome</h5>cucumber -f pretty -f html -o report.html BROWSER=chrome
 
-<h5>Pelo Firefox</h5>
-cucumber -f pretty -f html -o report.html BROWSER=firefox
+<h5>Pelo Firefox</h5>cucumber -f pretty -f html -o report.html BROWSER=firefox
 
 
 
