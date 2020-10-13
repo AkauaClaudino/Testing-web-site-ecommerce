@@ -10,8 +10,8 @@
 ### Objetivo do teste
 <h6>Projeto simples com propósito de treinar os conhecimentos adquiridos em automação web. Optei pela escrita em inglês para aprimorar a habilidade com a lingua.</h6>
 
-## Execução dos testes, gerando report em html
-<h8>Pelo Chrome</h8>
+#### Execução dos testes, gerando report em html
+<h7>Pelo Chrome</h7>
 cucumber -f pretty -f html -o report.html BROWSER=chrome
 
 <h8>Pelo Firefox</h8>
