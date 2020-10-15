@@ -10,8 +10,8 @@
 ### Objetivo do teste
 <h6>Projeto simples com propósito de treinar os conhecimentos adquiridos em automação web. Optei pela escrita em inglês para aprimorar a habilidade com a lingua.</h6>
 
-#### Execução dos testes, gerando report em html
-<h5>Execute:</h5>cucumber
+#### Execução dos testes
+<h5>Execute:cucumber </h5>
 
 
 
