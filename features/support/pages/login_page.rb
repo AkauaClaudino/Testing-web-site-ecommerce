@@ -25,4 +25,5 @@ class LoginPage
         find('#email').set 'wrongemail.com.com'
         find('#passwd').set 'test128'
     end
+
 end

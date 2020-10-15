@@ -3,15 +3,7 @@ require 'faker'
 class RegisterPage
     include Capybara::DSL
 
-    def go_to
-        visit "/index.php"       
-    end
-
-    def btn_login
-        find(".login").click
- end
-  
-
+   
     def email
         find('#email_create').set Faker::Internet.email  
         find('#SubmitCreate').click
@@ -57,6 +49,13 @@ class RegisterPage
      end
 
 
+   def message_register
+      find('.info-account').text
+   end
+
+   def message_not_register 
+     find('#create_account_error').text
+   end
      
 end
 

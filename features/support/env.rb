@@ -9,11 +9,7 @@ end
 
 
 Capybara.configure do |config|
-  config.default_driver =   :selenium
+  config.default_driver =   :selenium_chrome_headless
   config.app_host =  "http://automationpractice.com"
   config.default_max_wait_time = 10
 end
-
-
-# Para executar todos os cenários no chrome e gerar um report html
-#cucumber -f pretty -f html -o report.html BROWSER=chrome

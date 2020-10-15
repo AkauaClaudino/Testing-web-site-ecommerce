@@ -1,27 +1,26 @@
 Given('I already on the page') do
-@register.go_to
+    @login.go_to
 end
   
 When('I click Sign in') do
-    @register.btn_login  
+    @login.btn_login  
 end
 
 When('I enter my email  and click on create an account') do
     @register.email
 end  
 
-
 Then('I insert my personal data and click on register') do    
     @register.date
-    @register.btn_register  
-
+    @register.btn_register
+    sleep 2
 end
 
 
 Then('Authentication page must be shown') do 
    
-    expect(find('.info-account')).to have_content 'Welcome to your account. Here you can manage all of your personal information and orders.'
-   
+    expect(page).to have_content @register.message_register
+    sleep 2
 end
 
 When('I enter an invalid email and click on create an account') do
@@ -29,10 +28,9 @@ When('I enter an invalid email and click on create an account') do
 end
   
 
-Then('Authentication page must not  be shown') do
-   
-    expect(find('#create_account_error')).to have_content 'Invalid email address.'
-  
+Then('Authentication page must not  be shown') do   
+    expect(page).to have_content @register.message_not_register  
+    sleep 2
 end
   
 
