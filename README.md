@@ -10,6 +10,11 @@
 ### Objetivo do teste
 <h6>Projeto simples com propósito de treinar os conhecimentos adquiridos em automação web. Optei pela escrita em inglês para aprimorar a habilidade com a lingua.</h6>
 
+### Para executar o projeto
+ git clone https://github.com/Akaue/AutomationRuby.git
+ 
+ bundle install
+
 #### Execução dos testes
 cucumber
 
