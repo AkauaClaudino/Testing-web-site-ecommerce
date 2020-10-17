@@ -2,4 +2,7 @@ default: -p html -p bdd -p json
 html: --format html --out=features.html
 dot: --format progress
 bdd: --format pretty
-json: --format json -o "report.json"
+# json: --format json -o "report.json"
+json: --format=message 
+stand-alone: --json-formatter
+default: --publish-quiet
