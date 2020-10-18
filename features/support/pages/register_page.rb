@@ -30,8 +30,8 @@ class RegisterPage
         find('#lastname').set Faker::Name.name 
         find('#company').set Faker::Name.name      
         find('#address1').set Faker::Address.street_name
-        find('#address2').set Faker::Address.city   
-        find('#city').set 'San Diego'
+        find('#address2').set Faker::Address.street_name  
+        find('#city').set Faker::Address.city 
         find("#id_state option[value='5']").click
         find('#postcode').set '00000'    
         find("#id_country option[value='21']").click        
