@@ -44,7 +44,7 @@ class RegisterPage
 
 
     def invalid_email
-        find('#email_create').set 'Email Inválido '
+        find('#email_create').set 'Email Inválido'
         find('#SubmitCreate').click
      end
 
