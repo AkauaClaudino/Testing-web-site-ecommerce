@@ -14,4 +14,4 @@ test:
 artifacts:
   when: always
   paths:
-    - log/report.html
+    - report.html
