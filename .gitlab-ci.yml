@@ -11,7 +11,4 @@ test:
   script:
   - bundle install
   - bundle exec cucumber
-artifacts:
-  when: always
-  paths:
-    - report.html
+
