@@ -5,6 +5,5 @@ apk update && \
    apk add build-base \
    libxml2-dev \
    libxslt-dev \
-   postgresql-dev \
-   curl unzip libexif undev chromium chromium-chromedriver wait4ports svfb xorg-server dbus ttf-treefont mesa-dri-swrast \
+   curl unzip libexif udev chromium chromium-chromedriver wait4ports svfb xorg-server dbus ttf-treefont mesa-dri-swrast \
    && rm -rf /var/cache/apk/*
