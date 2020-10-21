@@ -1,5 +1,6 @@
+Gemfile.lock
 *.html
-*.xml
-*.lock
+*.png
+
 
 
