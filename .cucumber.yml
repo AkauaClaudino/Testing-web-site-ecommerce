@@ -1,0 +1,7 @@
+---
+default: -p html -p bdd -p json
+dot: --format progress
+bdd: --format pretty
+html: --format html -out= "report.html"
+json: --format json -out= "report.json"
+stand-alone: --json-formatter
