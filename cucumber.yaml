@@ -1,5 +1,5 @@
 ---
-default: -p html -p bdd -p json --publish-quiet
+default: -p bdd -p json --publish-quiet
 html: --format html --out=log/report.html
 json: --format json --out=log/report.json
 bdd: --format pretty

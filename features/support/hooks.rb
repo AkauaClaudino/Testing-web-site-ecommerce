@@ -1,3 +1,5 @@
+require 'report_builder'
+
 Before do
     @register = RegisterPage.new
     @login = LoginPage.new
@@ -5,11 +7,24 @@ Before do
 
 end
 
- After do |scenario|
+After do |scenario|
     nome_cenario = scenario.name.gsub(/[^A-Za-z0-9]/,' ')
     screenshot = "log/screenshots/#{nome_cenario}.png"
     page.save_screenshot(screenshot)
     attach(screenshot,'image/png')
- end
+
+end
 
 
+at_exit do   
+   ReportBuilder.configure do |config|
+      config.input_path = 'log/report.json'
+      config.report_path = 'log/report'
+      config.report_types = [:retry, :html]
+      config.report_title = 'Evidências do teste'
+      config.compress_image = true
+      config.additional_info = {"app" => "web","Data de execução" => "20/10/2020"}
+    end
+
+  ReportBuilder.build_report
+end
