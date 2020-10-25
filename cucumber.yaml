@@ -2,6 +2,7 @@
 default: -p bdd -p json --publish-quiet
 html: --format html --out=log/report.html
 json: --format json --out=log/report.json
+json: --format=message
 bdd: --format pretty
 progress: --format progress
 
