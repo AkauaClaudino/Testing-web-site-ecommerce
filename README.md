@@ -10,11 +10,11 @@
 
 ### Objetivo do teste
 <h6> Treinar os conhecimentos adquiridos em automação web. Optei pela escrita em inglês para aprimorar a habilidade com a lingua.</h6>
-
+´
 ### Para executar o projeto na sua máquina
  <h6>git clone https://github.com/Akaue/AutomationRuby.git</h6>
  <h6>Acesse a pasta no terminal e digite: bundle install, para adicionar as dependências do projeto. </h6>
-
+`
 #### Execução dos testes
 cucumber 
 
