@@ -16,7 +16,9 @@
  <h6>Acesse a pasta no terminal e digite: bundle install, para adicionar as dependências do projeto. </h6>
 
 #### Execução dos testes
+`
 cucumber 
+`
 
 
 
