@@ -9,7 +9,7 @@ Site usado para realizar a automação web: http://automationpractice.com/index.
 `
 
 
-### Objetivo do teste
+### Objetivo do teste 
 `
 Treinar os conhecimentos adquiridos em automação web. Optei pela escrita em inglês para aprimorar a habilidade com a lingua.
 `
